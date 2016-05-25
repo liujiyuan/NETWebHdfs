@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{340994C6-90D0-43E4-8540-F3A38FFD4047}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevZa.aHadoop.Core", "DevZa.aHadoop.Core\DevZa.aHadoop.Core.csproj", "{DE19D6A7-5F09-4DF5-B04A-D97338E2BDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevZa.aHadoop.Hdfs", "DevZa.aHadoop.Hdfs\DevZa.aHadoop.Hdfs.csproj", "{64053AC7-98D0-449A-AA02-FDDDFB8594B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevZa.aHadoop.HdfsTests", "DevZa.aHadoop.HdfsTests\DevZa.aHadoop.HdfsTests.csproj", "{B3945BED-6134-4F6A-A995-8491E3A284CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevZa.aHadoop.CoreTests", "DevZa.aHadoop.CoreTests\DevZa.aHadoop.CoreTests.csproj", "{244F2FC5-28A0-4C73-801E-BA2F2EEB896B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{02B8C123-D7A4-49C4-8C8C-CAE9EC22A6D2}"
+	ProjectSection(SolutionItems) = preProject
+		NugetAuto.bat = NugetAuto.bat
+		NugetReference.txt = NugetReference.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reference", "Reference", "{8B609DDF-723E-40A4-AB18-F2714984198D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevZa.Core", "DevZa.Core\DevZa.Core.csproj", "{890FF5FC-ED00-4833-A1C6-1614642A8444}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE19D6A7-5F09-4DF5-B04A-D97338E2BDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE19D6A7-5F09-4DF5-B04A-D97338E2BDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE19D6A7-5F09-4DF5-B04A-D97338E2BDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE19D6A7-5F09-4DF5-B04A-D97338E2BDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64053AC7-98D0-449A-AA02-FDDDFB8594B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64053AC7-98D0-449A-AA02-FDDDFB8594B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64053AC7-98D0-449A-AA02-FDDDFB8594B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64053AC7-98D0-449A-AA02-FDDDFB8594B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3945BED-6134-4F6A-A995-8491E3A284CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3945BED-6134-4F6A-A995-8491E3A284CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3945BED-6134-4F6A-A995-8491E3A284CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3945BED-6134-4F6A-A995-8491E3A284CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244F2FC5-28A0-4C73-801E-BA2F2EEB896B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244F2FC5-28A0-4C73-801E-BA2F2EEB896B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244F2FC5-28A0-4C73-801E-BA2F2EEB896B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244F2FC5-28A0-4C73-801E-BA2F2EEB896B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890FF5FC-ED00-4833-A1C6-1614642A8444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890FF5FC-ED00-4833-A1C6-1614642A8444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890FF5FC-ED00-4833-A1C6-1614642A8444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890FF5FC-ED00-4833-A1C6-1614642A8444}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3945BED-6134-4F6A-A995-8491E3A284CA} = {340994C6-90D0-43E4-8540-F3A38FFD4047}
+		{244F2FC5-28A0-4C73-801E-BA2F2EEB896B} = {340994C6-90D0-43E4-8540-F3A38FFD4047}
+		{890FF5FC-ED00-4833-A1C6-1614642A8444} = {8B609DDF-723E-40A4-AB18-F2714984198D}
+	EndGlobalSection
+EndGlobal

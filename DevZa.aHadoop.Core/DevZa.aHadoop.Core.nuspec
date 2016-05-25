@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://dotblogs.com.tw/justacoder/</licenseUrl>
+    <projectUrl>https://dotblogs.com.tw/justacoder/</projectUrl>
+    <iconUrl>http://R2IIS/NGET/Icon/icon_512.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>DevZa.Core First Release</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags> DevZa Hadoop</tags>    
+  </metadata>
+
+  <files>
+    <file src="LibraryReadme\aHadoop*.*" target="content\LibraryReadme" />
+  </files>
+</package>

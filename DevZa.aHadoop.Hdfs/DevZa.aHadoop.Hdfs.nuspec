@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://dotblogs.com.tw/justacoder/</licenseUrl>
+    <projectUrl>https://dotblogs.com.tw/justacoder/</projectUrl>
+    <iconUrl>http://R2IIS/NGET/Icon/icon_512.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>DevZa.Core First Release</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>DevZa Hadoop</tags>
+     <dependencies>
+            <dependency id="DevZa.aHadoop.Core" version="0.1.4.0" />
+    </dependencies>    
+  </metadata>
+</package>
