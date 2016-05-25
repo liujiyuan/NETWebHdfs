@@ -23,7 +23,11 @@ nameNodes 的部分， 主要把 type = "Active" 的 ip 設定好
     <user id="hadoop" password="hadoop" />
   </aHadoopUserInfoSecurity>
   
-  下面是 Sample Code (也可以看一下Unit Test 的程式碼)
+
+
+
+
+下面是 Sample Code (也可以看一下Unit Test 的程式碼)
 
 1. 取得 目錄 資訊
 
